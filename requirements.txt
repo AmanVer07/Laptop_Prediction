@@ -2,5 +2,5 @@ streamlit
 numpy
 pandas
 scikit-learn
-python-3.10.13
+
 
