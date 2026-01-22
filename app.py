@@ -1,3 +1,8 @@
+import pickle
+
+pipe = pickle.load(open("pipe.pkl", "rb"))
+df = pickle.load(open("df.pkl", "rb"))
+
 import streamlit as st
 import pickle
 import numpy as np
@@ -67,6 +72,7 @@ if st.button('Predict Price'):
 
     Query = Query.reshape(1, 12)
     st.title(np.exp(pipe.predict(Query)))
+
 
 
 
