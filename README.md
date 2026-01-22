@@ -5,8 +5,7 @@ This project predicts the **price of a laptop** based on its specifications usin
 ---
 
 ## 📊 Problem Statement
-Laptop prices depend on multiple factors like hardware configuration, brand, and performance.  
-Manually estimating prices is difficult, so this project uses **ML regression techniques** to predict laptop prices accurately.
+Laptop prices depend on multiple factors like hardware configuration, brand, and performance.
 
 ---
 
